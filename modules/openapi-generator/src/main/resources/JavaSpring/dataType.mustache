@@ -1,0 +1,1 @@
+{{#isArray}}List<{{#items}}{{#useBeanValidation}}{{>beanValidationCore}}{{/useBeanValidation}}{{>optionalDataType}}{{/items}}>{{/isArray}}{{^isArray}}{{{dataType}}}{{/isArray}}
